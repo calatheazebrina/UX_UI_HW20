@@ -1,0 +1,71 @@
+/*Header formatting*/
+body{
+    padding: 0 5vw;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;  
+    padding-bottom: 56px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+#logoName{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#name{
+    font-weight: 600;
+}
+nav{
+    display: flex;
+}
+a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    text-decoration: none;
+}
+#logo{
+    width:8vw;
+    padding-right: 8px;
+}
+hr{
+    background-color: #6D9EEB;
+    height: 8px;
+    border: none;
+}
+.breakLine{
+    margin: 6vw 3vw; 
+}
+
+
+/*Footer formatting*/
+footer{
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.footerText{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.socialIconsBar{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    padding: 8px;
+    height: 44px;
+    width: 44px
+}
