@@ -97,7 +97,7 @@ ul{
     list-style: none;
 }
 .bold{
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
 }
 .AS_button{
@@ -110,12 +110,35 @@ ul{
     border-width: .1em;
     border-color: black;
 }
+.caseContent{
+    background-color: rgba(154,194,197,0.2);
+    padding:2vw;
+    border-radius: 10px;
+    margin-bottom: 3vw;
+}
+.cardContent{
+    background-color: rgba(154,194,197,0.2);
+}
+.ideationBullets{
+    display: flex;
+}
+.graphContent{
+    width: 60vw;
+}
+.surveyPhotos{
+    width: 30vw;
+}
+.flowPhoto{
+    max-width: 50vw !important;
+}
+.conclusionPhotos{
+    width: 40vw;
+}
 /*Footer formatting*/
 footer{
     padding-right: 120px;
     padding-left: 120px;
 }
-
 .footerText{
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
