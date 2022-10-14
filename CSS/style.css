@@ -1,6 +1,6 @@
 /*Header formatting*/
 body{
-    padding: 0 5vw;
+    padding: 0 8vw;
 }
 header{
     display: flex;
@@ -19,16 +19,19 @@ h2{
     font-family: 'Nunito', sans-serif;
     font-size: 36px;
     font-weight: 400;
+    padding-bottom: 16px;
 }
 h3{
     font-family: 'Nunito', sans-serif;
     font-size: 28px;
     font-weight: 400;
+    padding-bottom: 16px;
 }
 p{
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    padding: 8px;
 }
 #logoName{
     display: flex;
@@ -112,9 +115,12 @@ ul{
 }
 .caseContent{
     background-color: rgba(154,194,197,0.2);
-    padding:2vw;
+    padding:3vw 6vw;
     border-radius: 10px;
     margin-bottom: 3vw;
+}
+.pageScreenshot{
+    width: 15vw;
 }
 .cardContent{
     background-color: rgba(154,194,197,0.2);
@@ -127,7 +133,7 @@ ul{
 }
 .surveyPhotos{
     width: 30vw;
-}
+    }
 .flowPhoto{
     max-width: 50vw !important;
 }
